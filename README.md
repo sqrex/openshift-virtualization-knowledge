@@ -7,7 +7,7 @@ Feel free to contribute.
 
 All three technologies rely on the same proven and stable technology stack under the hood. What actually changes between them is the top layer - management and orchestration.
 
-![608D513C-4C39-4941-A8F2-A872C910EA27.jpeg](Git%20-%20OpenShift%20Virtualization%20ae2091a58a9541f2b2713e5cddbc483c/608D513C-4C39-4941-A8F2-A872C910EA27.jpeg)
+![Virt technology Comparison](https://github.com/sqrex/openshift-virtualization-knowledge/blob/f119dec2d42895c2c66014a8dcc3328382907a07/Red%20Hat%20Virt%20solutions.png)
 
 ## Why RHV is being EOL and is Red Hat OpenShift a good replacement?
 
@@ -47,19 +47,18 @@ For that purpose it is great idea to start from one of the following approaches:
 - move so called internal, supportive, no-critical VM’s first. It could be your legacy monitoring system, or reporting system used by less critical supportive department. Check SLA for those apps and choose components that can tolerate f.x. 1-2 days of downtimes etc.
 
 I’m not a big fan of starting from dev environments and learning there as very often dev environments are covered by critical SLA. When you have 300+ developers, you don’t want to disrupt their work on new critical business features… right?
+If you still want to go the Dev env path, choose small one, focused on one dev team. Let them be your first early adopters and future evangelists.
 
-Knowledgebase, Articles, Links
+**Knowledgebase, Articles, Links**
 
 | Name | Description | Link |
 | --- | --- | --- |
 | Release notes | Great source of knowledge on what new came in |  |
 | OpenShift Virtualization for vSphere Admins | Key concepts of OpenShift Virtualization compared to vSphere terminology and architecture  |  |
-| Performance and stability  | Great article about Red Hat work around performance tests and improvements of OpenShift Virtualization for workloads like databases or SAP HANA. |  |
 | Git repo for  template generator | VM templates generator for OpenShift Virtualization based on ansible |  |
 |  |  |  |
-| YouTube playlist | Uplated list of all Red Hat YouTube videos around OpenShift Virtualization topic |  |
+| YouTube playlist | Up to date list of all Red Hat YouTube videos around OpenShift Virtualization topic |  |
 | GitOps approach for VM lifecycle management | Move from traditional VM management into GitOps approach leveraging ArgoCD and RHOV |  |
 | Migration tool | Documentation for VM Migration tool. Examples on how to migrate VM from vSphere and other hypervisors |  |
-| Big Scale deployment tests | 3000+ VM’s  with 24000+ pods on Red Hat OpenShift. Test drive and performance checks. |  |
 
 [https://www.redhat.com/rhdc/managed-files/vi-openshift-virtualization-reference-architecture-f31675-202207-en.pdf](https://www.redhat.com/rhdc/managed-files/vi-openshift-virtualization-reference-architecture-f31675-202207-en.pdf)
