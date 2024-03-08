@@ -26,7 +26,7 @@ Red Hat also continues to support OpenStack for environments where traditional v
 
 ## Stability, performance and migration approach
 
-If you ask yourself what would be the best fit and use case for Red Hat Virtualization there is no single good answer for it.
+If you ask me what would be the best fit and use case for Red Hat Virtualization - I would say that there is no single good answer for it.
 
 If you would like to follow the strategy Red Hat and the market is heading, the best way would be to look at migration plan from application perspective, not from hypervisor perspective.
 
@@ -39,6 +39,9 @@ This means that you should:
 - Migrate plan should be done by Application Team supported by technical how-to’s, DevOps/SRE support team. (Dev, DevOps, SRE, Platform Engineers)
 
 This approach will ensure that you follow application centric approach. It will give you additional benefits like moving all application components into one unified platform, ability to describe all app components, including VM’s, as code, centralized logging and monitoring capabilities etc.
+
+## Migrating from VMWare vSphere to OpenShift Virtualization - is it a good idea? [TO-DO]
+
 
 **Safety first**
 
