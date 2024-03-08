@@ -1,9 +1,10 @@
 # openshift-virtualization-knowledge
 My personal center and gathered knowledge around Red Hat OpenShift Virtualization Technology
 
-You can reach me out: https://www.linkedin.com/in/devops-sre-infrastructure-team-lead-rafal-skora/
+Feel free to contact me if you are interested in discovery workshops around Red Hat OpenShift technologies.
+You can reach me out here: https://www.linkedin.com/in/devops-sre-infrastructure-team-lead-rafal-skora/
 
-Feel free to contribute.
+Feel free to contribute to this document.
 
 # Intro OpenShift Virtualization, RHV, OpenStack
 
