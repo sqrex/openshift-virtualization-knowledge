@@ -66,9 +66,10 @@ TO DO
 | Big scale deployment | Performance tests with 3 000 VMs and 21,400 pods running on OpenShift Virtualization | [Link](https://www.redhat.com/rhdc/managed-files/vi-openshift-virtualization-reference-architecture-f31675-202207-en.pdf) |
 
 ** External Vendor related documents
+
 | Name | Description | Link |
-| Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf)] |
-| DELL | Design guide for OCP 4.10 deployment on DELL servers | [Link](https://infohub.delltechnologies.com/en-US/l/design-guide-red-hat-openshift-container-platform-4-10-on-intel-powered-dell-infrastructure-1/solution-introduction-70/)] |
+| Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf) |
+| DELL | Design guide for OCP 4.10 deployment on DELL servers | [Link](https://infohub.delltechnologies.com/en-US/l/design-guide-red-hat-openshift-container-platform-4-10-on-intel-powered-dell-infrastructure-1/solution-introduction-70/) |
 
 
 
