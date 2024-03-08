@@ -50,7 +50,7 @@ For that purpose it is great idea to start from one of the following approaches:
 I’m not a big fan of starting from dev environments and learning there as very often dev environments are covered by critical SLA. When you have 300+ developers, you don’t want to disrupt their work on new critical business features… right?
 If you still want to go the Dev env path, choose small one, focused on one dev team. Let them be your first early adopters and future evangelists.
 
-## Migrating from VMWare vSphere to OpenShift Virtualization - is it a good idea?
+## Migrating from VMWare vSphere to OpenShift Virtualization - approach?
 TO DO
 
 ## Knowledgebase, Articles, Links
