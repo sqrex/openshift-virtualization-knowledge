@@ -1,7 +1,7 @@
 # openshift-virtualization-knowledge
-My personal center for all things around Red Hat OpenShift Virtualization
+My personal center and gathered knowledge around Red Hat OpenShift Virtualization Technology
 
-Reach me out: https://www.linkedin.com/in/devops-sre-infrastructure-team-lead-rafal-skora/
+You can reach me out: https://www.linkedin.com/in/devops-sre-infrastructure-team-lead-rafal-skora/
 
 Feel free to contribute.
 
@@ -11,14 +11,14 @@ All three technologies rely on the same proven and stable technology stack under
 
 ![Virt technology Comparison](https://github.com/sqrex/openshift-virtualization-knowledge/blob/f119dec2d42895c2c66014a8dcc3328382907a07/Red%20Hat%20Virt%20solutions.png)
 
-## Why RHV is being EOL and is Red Hat OpenShift a good replacement?
+## Why RHV is being EOL? Is Red Hat OpenShift a good replacement?
 
-To understand why Red Hat moved out from Red Hat Virtualization to OpenShift Virtualization its critical to understand long term strategy and vision Red Hat is following.
+To understand why Red Hat moved out from Red Hat Virtualization to OpenShift Virtualization its critical to understand their long term strategy and vision.
 First of all Red Hat’s strategy assumes that majority of workloads will eventually run on containers.
 That’s why Red Hat emphasizes not solely relying on virtualization but rather leveraging OpenShift Virtualization, to bridge the gap between traditional virtual machines (VMs) and containerized applications. This approach allows for a seamless long-term migration from VMs to containers, acknowledging that some workloads may be challenging to convert and will have to stay inside VM’s. 
 OpenShift Virtualization, integrates virtualization into the OpenShift container platform, offering a unified management plane for both VMs and containers. 
 
-[This integration aims to solve complex IT problems by utilizing container technology while still supporting essential virtualization features. ]
+[This integration aims to solve complex IT problems by utilizing container technology while still supporting essential virtualization features.]
 
 That’s why the main purpose of OpenShift Virtualization is to provide strategic pathway for organizations to transition towards container-centric infrastructure.
 Red Hat also continues to support OpenStack for environments where traditional virtualization remains essential like big private cloud platforms.
@@ -27,10 +27,9 @@ Red Hat also continues to support OpenStack for environments where traditional v
 
 If you ask yourself what would be the best fit and use case for Red Hat Virtualization there is no single good answer for it.
 
-If you would like to follow the strategy Red Hat and the market is heading, the best way would be to look at migration plan from application perspective:
+If you would like to follow the strategy Red Hat and the market is heading, the best way would be to look at migration plan from application perspective, not from hypervisor perspective.
 
 This means that you should:
-
 - Create a list of components each applications is build of and how it is running (VM’s, bare metal, containers etc.)
 - Create a list of applications and their components that you plan to modernize (into containers)
 - Build per application migration and modernization plan
@@ -38,7 +37,7 @@ This means that you should:
     - Choose which parts of app will be modernized into container,serverless
 - Migrate plan should be done by Application Team supported by technical how-to’s, DevOps/SRE support team. (Dev, DevOps, SRE, Platform Engineers)
 
-This approach will ensure that you follow application centric approach. It will give you additional benefits like moving all applicationcomponents into one unified platform, ability to describe all app components, including VM’s, as code, centralized logging and monitoring capabilities etc.
+This approach will ensure that you follow application centric approach. It will give you additional benefits like moving all application components into one unified platform, ability to describe all app components, including VM’s, as code, centralized logging and monitoring capabilities etc.
 
 **Safety first**
 
