@@ -40,12 +40,8 @@ This means that you should:
 
 This approach will ensure that you follow application centric approach. It will give you additional benefits like moving all application components into one unified platform, ability to describe all app components, including VM’s, as code, centralized logging and monitoring capabilities etc.
 
-## Migrating from VMWare vSphere to OpenShift Virtualization - is it a good idea? [TO-DO]
 
-
-**Safety first**
-
-I also suggest our clients to follow more safe migration plan to have more time to learn technology, new concepts like GitOps approach to VM management. 
+I suggest our clients to follow more safe migration plan to have  time to learn technology and new concepts like GitOps approach to VM management. 
 
 For that purpose it is great idea to start from one of the following approaches:
 - utilize OpenShift Virtualization for Dev environments which will allow DevOps, SysOps to learn the technology, how to do proper sizing etc.
@@ -54,7 +50,10 @@ For that purpose it is great idea to start from one of the following approaches:
 I’m not a big fan of starting from dev environments and learning there as very often dev environments are covered by critical SLA. When you have 300+ developers, you don’t want to disrupt their work on new critical business features… right?
 If you still want to go the Dev env path, choose small one, focused on one dev team. Let them be your first early adopters and future evangelists.
 
-**Knowledgebase, Articles, Links**
+## Migrating from VMWare vSphere to OpenShift Virtualization - is it a good idea?
+TO DO
+
+## Knowledgebase, Articles, Links
 
 | Name | Description | Link |
 | --- | --- | --- |
