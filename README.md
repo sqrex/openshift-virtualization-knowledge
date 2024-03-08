@@ -6,7 +6,7 @@ You can reach me out here: https://www.linkedin.com/in/devops-sre-infrastructure
 
 Feel free to contribute to this document.
 
-# Intro OpenShift Virtualization, RHV, OpenStack
+# OpenShift Virtualization, RHV, OpenStack
 
 All three technologies rely on the same proven and stable technology stack under the hood. What actually changes between them is the top layer - management and orchestration.
 
