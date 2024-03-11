@@ -66,6 +66,9 @@ TO DO
 | Big scale deployment | Performance tests with 3 000 VMs and 21,400 pods running on OpenShift Virtualization | [Link](https://www.redhat.com/rhdc/managed-files/vi-openshift-virtualization-reference-architecture-f31675-202207-en.pdf) |
 
 ** External Vendor related documents
+| Name | Description | Link |
+| --- | --- | --- |
+
 
 | Name | Description | Link |
 | Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf) |
