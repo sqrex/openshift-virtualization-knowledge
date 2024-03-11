@@ -68,9 +68,6 @@ TO DO
 ** External Vendor related documents
 | Name | Description | Link |
 | --- | --- | --- |
-
-
-| Name | Description | Link |
 | Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf) |
 | DELL | Design guide for OCP 4.10 deployment on DELL servers | [Link](https://infohub.delltechnologies.com/en-US/l/design-guide-red-hat-openshift-container-platform-4-10-on-intel-powered-dell-infrastructure-1/solution-introduction-70/) |
 
