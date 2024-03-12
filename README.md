@@ -50,8 +50,6 @@ For that purpose it is great idea to start from one of the following approaches:
 I’m not a big fan of starting from dev environments and learning there as very often dev environments are covered by critical SLA. When you have 300+ developers, you don’t want to disrupt their work on new critical business features… right?
 If you still want to go the Dev env path, choose small one, focused on one dev team. Let them be your first early adopters and future evangelists.
 
-## Migrating from VMWare vSphere to OpenShift Virtualization - approach?
-TO DO
 
 ## Knowledgebase, Articles, Links
 
@@ -65,7 +63,8 @@ TO DO
 | Migration tool | Documentation for VM Migration tool. Examples on how to migrate VM from vSphere and other hypervisors | [Link](https://access.redhat.com/documentation/en-us/migration_toolkit_for_virtualization/2.0/html-single/installing_and_using_the_migration_toolkit_for_virtualization/index) |
 | Big scale deployment | Performance tests with 3 000 VMs and 21,400 pods running on OpenShift Virtualization | [Link](https://www.redhat.com/rhdc/managed-files/vi-openshift-virtualization-reference-architecture-f31675-202207-en.pdf) |
 
-** External Vendor related documents
+** External Vendor related documents **
+
 | Name | Description | Link |
 | --- | --- | --- |
 | Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf) |
