@@ -1,16 +1,11 @@
 # openshift-virtualization-knowledge
 My personal center and gathered knowledge around Red Hat OpenShift Virtualization Technology
 
-Feel free to contact me if you are interested in discovery workshops around Red Hat OpenShift technologies.
-You can reach me out here: https://www.linkedin.com/in/devops-sre-infrastructure-team-lead-rafal-skora/
-
-Feel free to contribute to this document.
-
 # OpenShift Virtualization, RHV, OpenStack
 
 All three technologies rely on the same proven and stable technology stack under the hood. What actually changes between them is the top layer - management and orchestration.
 
-![Virt technology Comparison](https://github.com/sqrex/openshift-virtualization-knowledge/blob/f119dec2d42895c2c66014a8dcc3328382907a07/Red%20Hat%20Virt%20solutions.png)
+![Virt technology Comparison](https://github.com/sqrex/openshift-virtualization-knowledge/blob/ac14e56e9d44e38de9913fc4e5c828b294dca578/Red%20Hat%20Virt%20solutions.png)
 
 ## Why RHV is being EOL? Is Red Hat OpenShift a good replacement?
 
@@ -72,3 +67,8 @@ If you still want to go the Dev env path, choose small one, focused on one dev t
 
 
 
+
+Feel free to contact me if you are interested in discovery workshops around Red Hat OpenShift technologies.
+You can reach me out here: https://www.linkedin.com/in/devops-sre-infrastructure-team-lead-rafal-skora/
+
+Feel free to contribute to this document.
