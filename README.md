@@ -1,6 +1,7 @@
 # openshift-virtualization-knowledge
 My personal center and gathered knowledge around Red Hat OpenShift Virtualization Technology
 
+
 # OpenShift Virtualization, RHV, OpenStack
 
 All three technologies rely on the same proven and stable technology stack under the hood. What actually changes between them is the top layer - management and orchestration.
@@ -48,24 +49,24 @@ If you still want to go the Dev env path, choose small one, focused on one dev t
 
 ## Knowledgebase, Articles, Links
 
+### Red Hat knowledge sources
 | Name | Description | Link |
 | --- | --- | --- |
 | Release notes | Great source of knowledge on what new came in | [Link](https://docs.openshift.com/container-platform/4.14/virt/release_notes/virt-4-14-release-notes.html) |
 | OpenShift Virtualization for vSphere Admins | Key concepts of OpenShift Virtualization compared to vSphere terminology and architecture  | [Link](https://www.redhat.com/en/blog/openshift-virtualization-for-vsphere-admins-an-introduction-to-network-configurations) |
-| Git repo for  template generator | VM templates generator for OpenShift Virtualization based on ansible | [Link](https://github.com/kubevirt/common-templates?tab=readme-ov-file) |
 | YouTube playlist | Up to date list of all Red Hat YouTube videos around OpenShift Virtualization topic | [Link](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqeQeTosfoFzTyE_QmWZW6n_) |
 | GitOps approach for VM lifecycle management | Move from traditional VM management into GitOps approach leveraging ArgoCD and RHOV | [Link](https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization) |
 | Migration tool | Documentation for VM Migration tool. Examples on how to migrate VM from vSphere and other hypervisors | [Link](https://access.redhat.com/documentation/en-us/migration_toolkit_for_virtualization/2.0/html-single/installing_and_using_the_migration_toolkit_for_virtualization/index) |
 | Big scale deployment | Performance tests with 3 000 VMs and 21,400 pods running on OpenShift Virtualization | [Link](https://www.redhat.com/rhdc/managed-files/vi-openshift-virtualization-reference-architecture-f31675-202207-en.pdf) |
 
-** External Vendor related documents **
+### External Vendor related documents
 
 | Name | Description | Link |
 | --- | --- | --- |
 | Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf) |
 | DELL | Design guide for OCP 4.10 deployment on DELL servers | [Link](https://infohub.delltechnologies.com/en-US/l/design-guide-red-hat-openshift-container-platform-4-10-on-intel-powered-dell-infrastructure-1/solution-introduction-70/) |
-
-
+| HPE | Reference architecture for OCP 4.12, deployment on HPE DL servers  | [Link](https://www.hpe.com/psnow/doc/a50007281enw) |
+| Git repo for  template generator | VM templates generator for OpenShift Virtualization based on ansible | [Link](https://github.com/kubevirt/common-templates?tab=readme-ov-file) |
 
 
 Feel free to contact me if you are interested in discovery workshops around Red Hat OpenShift technologies.
