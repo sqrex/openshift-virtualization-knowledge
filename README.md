@@ -66,7 +66,10 @@ If you still want to go the Dev env path, choose small one, focused on one dev t
 | Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf) |
 | DELL | Design guide for OCP 4.10 deployment on DELL servers | [Link](https://infohub.delltechnologies.com/en-US/l/design-guide-red-hat-openshift-container-platform-4-10-on-intel-powered-dell-infrastructure-1/solution-introduction-70/) |
 | HPE | Reference architecture for OCP 4.12, deployment on HPE DL servers  | [Link](https://www.hpe.com/psnow/doc/a50007281enw) |
+| Cisco | Reference architecture for OCP 4.12, deployment on Cisco  | [Link](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/installation/openshift-on-baremetal/installing-openshift-4-12-on-baremetal.html) |
 | Git repo for  template generator | VM templates generator for OpenShift Virtualization based on ansible | [Link](https://github.com/kubevirt/common-templates?tab=readme-ov-file) |
+
+
 
 
 Feel free to contact me if you are interested in discovery workshops around Red Hat OpenShift technologies.
