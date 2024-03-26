@@ -46,6 +46,19 @@ For that purpose it is great idea to start from one of the following approaches:
 I’m not a big fan of starting from dev environments and learning there as very often dev environments are covered by critical SLA. When you have 300+ developers, you don’t want to disrupt their work on new critical business features… right?
 If you still want to go the Dev env path, choose small one, focused on one dev team. Let them be your first early adopters and future evangelists.
 
+## VMWare and OpenShift comparison
+
+### Glossary
+
+| Feature | vSphere | OpenShift Virtualization |
+| --- | --- | --- |
+| VM Live Migration | vMotion | Live Migration |
+| Storage Live Migration | Storage vMotion | No functionality |
+| Resource rebalancing | Pod eviction policy, descheduler | DRS (Dynamic Resource Scheduling) |
+| Storage backend | datastore, vSAN, arrays | PVC through CSI |
+| Network backend | vSwitch, DvSwitch, NSX-T | Multus, OpenShiftSDN, nmstate, CNI (partners) |
+| Host and VM metrics | vCenter, vROps | OpenShift Metrics,  |
+
 
 ## Knowledgebase, Articles, Links
 
