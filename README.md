@@ -68,7 +68,7 @@ If you still want to go the Dev env path, choose small one, focused on one dev t
 | Name | Description | Link |
 | --- | --- | --- |
 | Release notes | Great source of knowledge on what new came in | [Link](https://docs.openshift.com/container-platform/4.17/virt/release_notes/virt-4-17-release-notes.html) |
-| Rerefence Guide | OpenShift Virtualization official Implementation Guide | [Link] (https://access.redhat.com/sites/default/files/attachments/openshift_virtualization_reference_implementation_guide.pdf#page6) |
+| Rerefence Guide | OpenShift Virtualization official Implementation Guide | [Link](https://access.redhat.com/sites/default/files/attachments/openshift_virtualization_reference_implementation_guide.pdf#page6) |
 | OpenShift Virtualization for vSphere Admins | Key concepts of OpenShift Virtualization compared to vSphere terminology and architecture  | [Link](https://www.redhat.com/en/blog/openshift-virtualization-for-vsphere-admins-an-introduction-to-network-configurations) |
 | YouTube playlist | Up to date list of all Red Hat YouTube videos around OpenShift Virtualization topic | [Link](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqeQeTosfoFzTyE_QmWZW6n_) |
 | GitOps approach for VM lifecycle management | Move from traditional VM management into GitOps approach leveraging ArgoCD and RHOV | [Link](https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization) |
