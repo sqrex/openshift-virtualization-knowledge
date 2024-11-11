@@ -79,9 +79,9 @@ If you still want to go the Dev env path, choose small one, focused on one dev t
 | Name | Description | Link |
 | --- | --- | --- |
 | Lenovo | Reference architecture for OCP 4.13, deployment on Lenovo servers  | [Link](https://lenovopress.lenovo.com/lp0968.pdf) |
-| DELL | Design guide for OCP 4.10 deployment on DELL servers | [Link](https://infohub.delltechnologies.com/en-US/l/design-guide-red-hat-openshift-container-platform-4-10-on-intel-powered-dell-infrastructure-1/solution-introduction-70/) |
-| HPE | Reference architecture for OCP 4.12, deployment on HPE DL servers  | [Link](https://www.hpe.com/psnow/doc/a50007281enw) |
-| HPE | Reference Architecture for OpenShift Virtualization on HPE DL Servers | [Link](https://www.hpe.com/psnow/downloadDoc/HPE%20Reference%20Configuration%20for%20Red%20Hat%20OpenShift%20Virtualization%20on%20HPE%20ProLiant%20DL360%20and%20DL380%20Gen11%20servers%20using%20Red%20Hat%20OpenShift%20Container%20Platform%204.15-a50011012enw.pdf?id=a50011012enw)
+| DELL | Design guide for OCP 4.14 deployment on DELL servers | [Link](https://infohub.delltechnologies.com/static/media/client/7phukh/DAM_e55a1069-ee75-43de-8a7d-ac843984caf7.pdf) |
+| HPE | Reference architecture for OCP 4.14, deployment on HPE DL servers  | [Link](https://www.hpe.com/psnow/downloadDoc/HPE%20Reference%20Configuration%20for%20Red%20Hat%20OpenShift%20Container%20Platform%204.14%20on%20HPE%20ProLiant%20DL360%20&%20DL380%20Gen11%20servers-a50010318enw.pdf?id=a50010318enw&isFutureVersion=true&ver=&form=false&preview=false&print=&hf=regular&r=&section=&prelaunchSection=&softrollSection=&deepLink=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&isLinearized=false&contentDisposition=attachment) |
+| HPE | Reference Architecture for OCP 4.15 and OpenShift Virtualization on HPE DL Servers | [Link](https://www.hpe.com/psnow/downloadDoc/HPE%20Reference%20Configuration%20for%20Red%20Hat%20OpenShift%20Virtualization%20on%20HPE%20ProLiant%20DL360%20and%20DL380%20Gen11%20servers%20using%20Red%20Hat%20OpenShift%20Container%20Platform%204.15-a50011012enw.pdf?id=a50011012enw)
 | Cisco | Reference architecture for OCP 4.12, deployment on Cisco  | [Link](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/installation/openshift-on-baremetal/installing-openshift-4-12-on-baremetal.html) |
 | Git repo for  template generator | VM templates generator for OpenShift Virtualization based on ansible | [Link](https://github.com/kubevirt/common-templates?tab=readme-ov-file) |
 
