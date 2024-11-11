@@ -37,15 +37,15 @@ This means that you should:
 This approach will ensure that you follow application centric approach. It will give you additional benefits like moving all application components into one unified platform, ability to describe all app components, including VM’s, as code, centralized logging and monitoring capabilities etc.
 
 
-I suggest our clients to follow more safe migration plan to have  time to learn technology and new concepts like GitOps approach to VM management. 
+I suggest our clients to follow more safe migration plan to have time to learn technology and new concepts like GitOps approach to VM management. 
 
 For that purpose it is great idea to start from one of the following approaches:
 - utilize OpenShift Virtualization for Dev environments which will allow DevOps, SysOps to learn the technology, how to do proper sizing etc.
 - move so called internal, supportive, no-critical VM’s first. It could be your legacy monitoring system, or reporting system used by less critical supportive department. Check SLA for those apps and choose components that can tolerate f.x. 1-2 days of downtimes etc.
-- move RHEL workloads (save $$$ on RHEL Subscription costs)
+- move RHEL workloads (save $$$ on RHEL Subscription costs). Start from Dev/test -> observe,learn -> move to prod
 
-I’m not a big fan of starting from dev environments and learning there as very often dev environments are covered by critical SLA. When you have 300+ developers, you don’t want to disrupt their work on new critical business features… right?
-If you still want to go the Dev env path, choose small one, focused on one dev team. Let them be your first early adopters and future evangelists.
+
+If you want to go the Dev env path, choose small part of your ecosystem, focused on one dev team. Let them be your first early adopters and future evangelists.
 
 ## VMWare and OpenShift comparison
 
