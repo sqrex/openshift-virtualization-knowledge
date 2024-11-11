@@ -42,6 +42,7 @@ I suggest our clients to follow more safe migration plan to have  time to learn 
 For that purpose it is great idea to start from one of the following approaches:
 - utilize OpenShift Virtualization for Dev environments which will allow DevOps, SysOps to learn the technology, how to do proper sizing etc.
 - move so called internal, supportive, no-critical VM’s first. It could be your legacy monitoring system, or reporting system used by less critical supportive department. Check SLA for those apps and choose components that can tolerate f.x. 1-2 days of downtimes etc.
+- move RHEL workloads (save $$$ on RHEL Subscription costs)
 
 I’m not a big fan of starting from dev environments and learning there as very often dev environments are covered by critical SLA. When you have 300+ developers, you don’t want to disrupt their work on new critical business features… right?
 If you still want to go the Dev env path, choose small one, focused on one dev team. Let them be your first early adopters and future evangelists.
@@ -53,6 +54,7 @@ If you still want to go the Dev env path, choose small one, focused on one dev t
 | Feature | vSphere | OpenShift Virtualization |
 | --- | --- | --- |
 | VM Live Migration | vMotion | Live Migration |
+| VM Memory overcommit | Yes | Yes |
 | Storage Live Migration | Storage vMotion | No functionality |
 | Resource rebalancing | Pod eviction policy, descheduler | DRS (Dynamic Resource Scheduling) |
 | Storage backend | datastore, vSAN, arrays | PVC through CSI |
@@ -65,7 +67,7 @@ If you still want to go the Dev env path, choose small one, focused on one dev t
 ### Red Hat knowledge sources
 | Name | Description | Link |
 | --- | --- | --- |
-| Release notes | Great source of knowledge on what new came in | [Link](https://docs.openshift.com/container-platform/4.14/virt/release_notes/virt-4-14-release-notes.html) |
+| Release notes | Great source of knowledge on what new came in | [Link](https://docs.openshift.com/container-platform/4.17/virt/release_notes/virt-4-17-release-notes.html) |
 | OpenShift Virtualization for vSphere Admins | Key concepts of OpenShift Virtualization compared to vSphere terminology and architecture  | [Link](https://www.redhat.com/en/blog/openshift-virtualization-for-vsphere-admins-an-introduction-to-network-configurations) |
 | YouTube playlist | Up to date list of all Red Hat YouTube videos around OpenShift Virtualization topic | [Link](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqeQeTosfoFzTyE_QmWZW6n_) |
 | GitOps approach for VM lifecycle management | Move from traditional VM management into GitOps approach leveraging ArgoCD and RHOV | [Link](https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization) |
