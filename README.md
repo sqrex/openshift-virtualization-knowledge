@@ -55,7 +55,7 @@ If you want to go the Dev env path, choose small part of your ecosystem, focused
 | --- | --- | --- |
 | VM Live Migration | vMotion | Live Migration |
 | VM Memory overcommit | Yes | Yes |
-| Storage Live Migration | Storage vMotion | No functionality |
+| Storage Live Migration | Storage vMotion | Yes |
 | Resource rebalancing | Pod eviction policy, descheduler | DRS (Dynamic Resource Scheduling) |
 | Storage backend | datastore, vSAN, arrays | PVC through CSI |
 | Network backend | vSwitch, DvSwitch, NSX-T | Multus, OpenShiftSDN, nmstate, CNI (partners) |
